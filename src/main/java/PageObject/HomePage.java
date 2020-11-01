@@ -27,9 +27,9 @@ public class HomePage {
     private By footerLinksContainer = By.cssSelector(".socialMediaBar__container-sc-1ry1db0-1");
     private By footerNameMissingAlert = By.cssSelector("div.Footer__InputDiv-sc-159s1ql-4:nth-child(1) > label:nth-child(2)");
     private By whatsappButton = By.cssSelector(".callUsWhatsapp__BtnWhatsapp-rkzbui-0");
-    private final String slickArrowString = "div.slick-arrow:nth-child(3)";
+    private final String slickArrowString = "section.portfolio__Portfolio-sc-80s039-0 > div.slick-slider > div.slick-arrow.slick-next";
     private By slideToTheRightButton = By.cssSelector(slickArrowString);
-    private By radioButtonsContainer = By.cssSelector("ul.slick-dots:nth-child(4)");
+    private By radioButtonsContainer = By.cssSelector("section.portfolio__Portfolio-sc-80s039-0 > div.slick-slider > ul.slick-dots");
     
     
     

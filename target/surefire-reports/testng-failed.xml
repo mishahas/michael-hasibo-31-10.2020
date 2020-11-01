@@ -6,8 +6,6 @@
       <class name="WebAutomation.HomePageTest">
         <methods>
           <include name="popupValidation" invocation-numbers="0 1"/>
-          <include name="FooterPositiveSubmitValidation" invocation-numbers="0"/>
-          <include name="FooterNegativreSubmitValidation" invocation-numbers="0 1"/>
         </methods>
       </class> <!-- WebAutomation.HomePageTest -->
     </classes>

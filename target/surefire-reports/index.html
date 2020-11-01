@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 5 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">10 methods, 5 failed,   5 passed</span>
+                    <span class="method-stats">10 methods, 2 failed,   8 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -102,27 +102,12 @@
                     <div class="method-list-content failed suite-WebAutomation_HomePageTest">
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-WebAutomation_HomePageTest" title="WebAutomation.HomePageTest" hash-for-method="FooterNegativreSubmitValidation(chrome)">FooterNegativreSubmitValidation(chrome)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-WebAutomation_HomePageTest" title="WebAutomation.HomePageTest" hash-for-method="FooterNegativreSubmitValidation(firefox)">FooterNegativreSubmitValidation(firefox)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-WebAutomation_HomePageTest" title="WebAutomation.HomePageTest" hash-for-method="FooterPositiveSubmitValidation(chrome)">FooterPositiveSubmitValidation(chrome)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-WebAutomation_HomePageTest" title="WebAutomation.HomePageTest" hash-for-method="popupValidation(firefox)">popupValidation(firefox)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="failed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-WebAutomation_HomePageTest" title="WebAutomation.HomePageTest" hash-for-method="popupValidation(chrome)">popupValidation(chrome)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-WebAutomation_HomePageTest" title="WebAutomation.HomePageTest" hash-for-method="popupValidation(firefox)">popupValidation(firefox)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-WebAutomation_HomePageTest -->
@@ -136,17 +121,32 @@
                     <div class="method-list-content passed suite-WebAutomation_HomePageTest">
                       <span>
                         <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WebAutomation_HomePageTest" title="WebAutomation.HomePageTest" hash-for-method="FooterNegativreSubmitValidation(firefox)">FooterNegativreSubmitValidation(firefox)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WebAutomation_HomePageTest" title="WebAutomation.HomePageTest" hash-for-method="FooterNegativreSubmitValidation(chrome)">FooterNegativreSubmitValidation(chrome)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-WebAutomation_HomePageTest" title="WebAutomation.HomePageTest" hash-for-method="FooterPositiveSubmitValidation(firefox)">FooterPositiveSubmitValidation(firefox)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-WebAutomation_HomePageTest" title="WebAutomation.HomePageTest" hash-for-method="arrowButtonsSwitchRadioButtonsValidation(firefox)">arrowButtonsSwitchRadioButtonsValidation(firefox)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-WebAutomation_HomePageTest" title="WebAutomation.HomePageTest" hash-for-method="FooterPositiveSubmitValidation(chrome)">FooterPositiveSubmitValidation(chrome)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-WebAutomation_HomePageTest" title="WebAutomation.HomePageTest" hash-for-method="arrowButtonsSwitchRadioButtonsValidation(chrome)">arrowButtonsSwitchRadioButtonsValidation(chrome)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WebAutomation_HomePageTest" title="WebAutomation.HomePageTest" hash-for-method="arrowButtonsSwitchRadioButtonsValidation(firefox)">arrowButtonsSwitchRadioButtonsValidation(firefox)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -179,118 +179,22 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="FooterNegativreSubmitValidation(chrome)">
-                  </a> <!-- FooterNegativreSubmitValidation(chrome) -->
-                  <span class="method-name">FooterNegativreSubmitValidation</span>
-                  <span class="parameters">(chrome)</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;div.Footer__InputDiv-sc-159s1ql-4:nth-child(1) &gt; label:nth-child(2)&quot;}
-  (Session info: chrome=86.0.4240.111)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: &apos;4.0.0-alpha-4&apos;, revision: &apos;c2d955b49e&apos;
-System info: host: &apos;Admins-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:da:2044:ab1b:61ed%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.7&apos;, java.version: &apos;1.8.0_251&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/bn/8m1cdzgj589...}, goog:chromeOptions: {debuggerAddress: localhost:61641}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: c574656105c46b07705fccd40cae774e
-*** Element info: {Using=css selector, value=div.Footer__InputDiv-sc-159s1ql-4:nth-child(1) &gt; label:nth-child(2)}
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:333)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:441)
-	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:494)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:325)
-	at PageObject.HomePage.getFooterNameMissingAlert(HomePage.java:60)
-	at WebAutomation.HomePageTest.FooterNegativreSubmitValidation(HomePageTest.java:69)
-	at java.util.ArrayList.forEach(ArrayList.java:1257)
-... Removed 40 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="FooterNegativreSubmitValidation(firefox)">
-                  </a> <!-- FooterNegativreSubmitValidation(firefox) -->
-                  <span class="method-name">FooterNegativreSubmitValidation</span>
+                  <a name="popupValidation(firefox)">
+                  </a> <!-- popupValidation(firefox) -->
+                  <span class="method-name">popupValidation</span>
                   <span class="parameters">(firefox)</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: div.Footer__InputDiv-sc-159s1ql-4:nth-child(1) &gt; label:nth-child(2)
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.cssSelector: .onUnloadPopup__ModalWrapper-v34ylr-0 (tried for 3 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+	at WebAutomation.HomePageTest.popupValidation(HomePageTest.java:178)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: .onUnloadPopup__ModalWrapper-v34ylr-0
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: &apos;4.0.0-alpha-4&apos;, revision: &apos;c2d955b49e&apos;
 System info: host: &apos;Admins-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:da:2044:ab1b:61ed%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.7&apos;, java.version: &apos;1.8.0_251&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 82.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201027185343, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 14255, moz:profile: /var/folders/bn/8m1cdzgj589..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 19.6.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 77acc1f2-ff69-cd42-819a-69b7a59f50d3
-*** Element info: {Using=css selector, value=div.Footer__InputDiv-sc-159s1ql-4:nth-child(1) &gt; label:nth-child(2)}
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:333)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:441)
-	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:494)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:325)
-	at PageObject.HomePage.getFooterNameMissingAlert(HomePage.java:60)
-	at WebAutomation.HomePageTest.FooterNegativreSubmitValidation(HomePageTest.java:69)
-	at java.util.ArrayList.forEach(ArrayList.java:1257)
-... Removed 40 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="FooterPositiveSubmitValidation(chrome)">
-                  </a> <!-- FooterPositiveSubmitValidation(chrome) -->
-                  <span class="method-name">FooterPositiveSubmitValidation</span>
-                  <span class="parameters">(chrome)</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.thankYou__title-avz2fr-5&quot;}
-  (Session info: chrome=86.0.4240.111)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: &apos;4.0.0-alpha-4&apos;, revision: &apos;c2d955b49e&apos;
-System info: host: &apos;Admins-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:da:2044:ab1b:61ed%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.7&apos;, java.version: &apos;1.8.0_251&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/bn/8m1cdzgj589...}, goog:chromeOptions: {debuggerAddress: localhost:61804}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: a65be14c7857e99b208ae2b6764455e9
-*** Element info: {Using=css selector, value=.thankYou__title-avz2fr-5}
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:333)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:441)
-	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:494)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:325)
-	at PageObject.ThankYouPage.getThankYouText(ThankYouPage.java:19)
-	at WebAutomation.HomePageTest.FooterPositiveSubmitValidation(HomePageTest.java:54)
-	at java.util.ArrayList.forEach(ArrayList.java:1257)
-... Removed 40 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="popupValidation(chrome)">
-                  </a> <!-- popupValidation(chrome) -->
-                  <span class="method-name">popupValidation</span>
-                  <span class="parameters">(chrome)</span>
-                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.cssSelector: .onUnloadPopup__ModalWrapper-v34ylr-0 (tried for 3 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
-	at WebAutomation.HomePageTest.popupValidation(HomePageTest.java:171)
-	at java.util.ArrayList.forEach(ArrayList.java:1257)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.onUnloadPopup__ModalWrapper-v34ylr-0&quot;}
-  (Session info: chrome=86.0.4240.111)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: &apos;4.0.0-alpha-4&apos;, revision: &apos;c2d955b49e&apos;
-System info: host: &apos;Admins-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:da:2044:ab1b:61ed%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.7&apos;, java.version: &apos;1.8.0_251&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/bn/8m1cdzgj589...}, goog:chromeOptions: {debuggerAddress: localhost:62126}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 5a6d87bbffdf369c8fc2f310884ad0b5
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 82.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201027185343, moz:geckodriverVersion: 0.26.0, moz:headless: true, moz:processID: 15827, moz:profile: /var/folders/bn/8m1cdzgj589..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 19.6.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: bff0288c-7e56-4d43-8c21-2c8b9f7918ba
 *** Element info: {Using=css selector, value=.onUnloadPopup__ModalWrapper-v34ylr-0}
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
@@ -314,22 +218,23 @@ Session ID: 5a6d87bbffdf369c8fc2f310884ad0b5
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="popupValidation(firefox)">
-                  </a> <!-- popupValidation(firefox) -->
+                  <a name="popupValidation(chrome)">
+                  </a> <!-- popupValidation(chrome) -->
                   <span class="method-name">popupValidation</span>
-                  <span class="parameters">(firefox)</span>
+                  <span class="parameters">(chrome)</span>
                   <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.cssSelector: .onUnloadPopup__ModalWrapper-v34ylr-0 (tried for 3 second(s) with 500 milliseconds interval)
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
-	at WebAutomation.HomePageTest.popupValidation(HomePageTest.java:171)
+	at WebAutomation.HomePageTest.popupValidation(HomePageTest.java:178)
 	at java.util.ArrayList.forEach(ArrayList.java:1257)
-Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: .onUnloadPopup__ModalWrapper-v34ylr-0
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.onUnloadPopup__ModalWrapper-v34ylr-0&quot;}
+  (Session info: headless chrome=86.0.4240.111)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: &apos;4.0.0-alpha-4&apos;, revision: &apos;c2d955b49e&apos;
 System info: host: &apos;Admins-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:da:2044:ab1b:61ed%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.7&apos;, java.version: &apos;1.8.0_251&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 82.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201027185343, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 14361, moz:profile: /var/folders/bn/8m1cdzgj589..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 19.6.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 2466a24e-65f3-5b4d-b382-88e5b719d90c
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/bn/8m1cdzgj589...}, goog:chromeOptions: {debuggerAddress: localhost:54726}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 32ebd96a7f152921715abc6d7b74da15
 *** Element info: {Using=css selector, value=.onUnloadPopup__ModalWrapper-v34ylr-0}
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
@@ -361,6 +266,22 @@ Session ID: 2466a24e-65f3-5b4d-b382-88e5b719d90c
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="FooterNegativreSubmitValidation(firefox)">
+                  </a> <!-- FooterNegativreSubmitValidation(firefox) -->
+                  <span class="method-name">FooterNegativreSubmitValidation</span>
+                  <span class="parameters">(firefox)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="FooterNegativreSubmitValidation(chrome)">
+                  </a> <!-- FooterNegativreSubmitValidation(chrome) -->
+                  <span class="method-name">FooterNegativreSubmitValidation</span>
+                  <span class="parameters">(chrome)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="FooterPositiveSubmitValidation(firefox)">
                   </a> <!-- FooterPositiveSubmitValidation(firefox) -->
                   <span class="method-name">FooterPositiveSubmitValidation</span>
@@ -369,10 +290,10 @@ Session ID: 2466a24e-65f3-5b4d-b382-88e5b719d90c
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="arrowButtonsSwitchRadioButtonsValidation(firefox)">
-                  </a> <!-- arrowButtonsSwitchRadioButtonsValidation(firefox) -->
-                  <span class="method-name">arrowButtonsSwitchRadioButtonsValidation</span>
-                  <span class="parameters">(firefox)</span>
+                  <a name="FooterPositiveSubmitValidation(chrome)">
+                  </a> <!-- FooterPositiveSubmitValidation(chrome) -->
+                  <span class="method-name">FooterPositiveSubmitValidation</span>
+                  <span class="parameters">(chrome)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -381,6 +302,14 @@ Session ID: 2466a24e-65f3-5b4d-b382-88e5b719d90c
                   </a> <!-- arrowButtonsSwitchRadioButtonsValidation(chrome) -->
                   <span class="method-name">arrowButtonsSwitchRadioButtonsValidation</span>
                   <span class="parameters">(chrome)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="arrowButtonsSwitchRadioButtonsValidation(firefox)">
+                  </a> <!-- arrowButtonsSwitchRadioButtonsValidation(firefox) -->
+                  <span class="method-name">arrowButtonsSwitchRadioButtonsValidation</span>
+                  <span class="parameters">(firefox)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -454,50 +383,50 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(10);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'FooterNegativreSubmitValidation')
+data.setCell(0, 1, 'popupValidation')
 data.setCell(0, 2, 'WebAutomation.HomePageTest')
-data.setCell(0, 3, 25511);
+data.setCell(0, 3, 15242);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'FooterNegativreSubmitValidation')
 data.setCell(1, 2, 'WebAutomation.HomePageTest')
-data.setCell(1, 3, 25478);
+data.setCell(1, 3, 14455);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'popupValidation')
+data.setCell(2, 1, 'arrowButtonsSwitchRadioButtonsValidation')
 data.setCell(2, 2, 'WebAutomation.HomePageTest')
-data.setCell(2, 3, 24462);
+data.setCell(2, 3, 14276);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'popupValidation')
+data.setCell(3, 1, 'FooterNegativreSubmitValidation')
 data.setCell(3, 2, 'WebAutomation.HomePageTest')
-data.setCell(3, 3, 24303);
+data.setCell(3, 3, 14047);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'FooterPositiveSubmitValidation')
+data.setCell(4, 1, 'popupValidation')
 data.setCell(4, 2, 'WebAutomation.HomePageTest')
-data.setCell(4, 3, 23853);
+data.setCell(4, 3, 13227);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'FooterPositiveSubmitValidation')
+data.setCell(5, 1, 'whatsappButtonValidation')
 data.setCell(5, 2, 'WebAutomation.HomePageTest')
-data.setCell(5, 3, 7511);
+data.setCell(5, 3, 6834);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'whatsappButtonValidation')
+data.setCell(6, 1, 'arrowButtonsSwitchRadioButtonsValidation')
 data.setCell(6, 2, 'WebAutomation.HomePageTest')
-data.setCell(6, 3, 6317);
+data.setCell(6, 3, 6508);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'whatsappButtonValidation')
+data.setCell(7, 1, 'FooterPositiveSubmitValidation')
 data.setCell(7, 2, 'WebAutomation.HomePageTest')
-data.setCell(7, 3, 5523);
+data.setCell(7, 3, 5684);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'arrowButtonsSwitchRadioButtonsValidation')
+data.setCell(8, 1, 'FooterPositiveSubmitValidation')
 data.setCell(8, 2, 'WebAutomation.HomePageTest')
-data.setCell(8, 3, 4783);
+data.setCell(8, 3, 5675);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'arrowButtonsSwitchRadioButtonsValidation')
+data.setCell(9, 1, 'whatsappButtonValidation')
 data.setCell(9, 2, 'WebAutomation.HomePageTest')
-data.setCell(9, 3, 3607);
+data.setCell(9, 3, 4396);
 window.suiteTableData['WebAutomation_HomePageTest']= { tableData: data, tableDiv: 'times-div-WebAutomation_HomePageTest'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-WebAutomation_HomePageTest">
               </div> <!-- times-div-WebAutomation_HomePageTest -->
             </div> <!-- times-div -->
@@ -525,54 +454,48 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">WebAutomation.HomePageTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">FooterNegativreSubmitValidation(chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">FooterNegativreSubmitValidation(firefox)</span>
-                <span class="method-start">25517 ms</span>
+                <span class="method-start">14458 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">FooterPositiveSubmitValidation(chrome)</span>
-                <span class="method-start">50998 ms</span>
+                <span class="method-start">28506 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">FooterPositiveSubmitValidation(firefox)</span>
-                <span class="method-start">74852 ms</span>
+                <span class="method-start">34190 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">arrowButtonsSwitchRadioButtonsValidation(chrome)</span>
-                <span class="method-start">82365 ms</span>
+                <span class="method-start">39866 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">arrowButtonsSwitchRadioButtonsValidation(firefox)</span>
-                <span class="method-start">85972 ms</span>
+                <span class="method-start">54143 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">popupValidation(chrome)</span>
-                <span class="method-start">90756 ms</span>
+                <span class="method-start">60652 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">popupValidation(firefox)</span>
-                <span class="method-start">115060 ms</span>
+                <span class="method-start">73882 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">whatsappButtonValidation(chrome)</span>
-                <span class="method-start">139524 ms</span>
+                <span class="method-start">89126 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">whatsappButtonValidation(firefox)</span>
-                <span class="method-start">145047 ms</span>
+                <span class="method-start">93522 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

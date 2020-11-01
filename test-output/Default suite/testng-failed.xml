@@ -5,7 +5,7 @@
     <classes>
       <class name="WebAutomation.HomePageTest">
         <methods>
-          <include name="FooterNegativreSubmitValidation" invocation-numbers="0 1"/>
+          <include name="arrowButtonsSwitchRadioButtonsValidation" invocation-numbers="0"/>
         </methods>
       </class> <!-- WebAutomation.HomePageTest -->
     </classes>

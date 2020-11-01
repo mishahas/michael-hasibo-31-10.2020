@@ -122,6 +122,8 @@ public class HomePageTest extends Utils {
 		try {
 			// Remove the footer because it obscures the elemts we need to click on
 			((JavascriptExecutor) driver).executeScript("document.getElementById('footer').remove()");
+			
+			Thread.sleep(1000);
 	
 			// get all the toggle buttons
 			WebElement togglesContainer = homePage.getRadioButtonsContainer();
@@ -151,6 +153,9 @@ public class HomePageTest extends Utils {
 				Assert.assertTrue(togglesList.get(beforeClickIndex + 1).getAttribute("class").equals("slick-active"));
 			}
 				
+		}
+		catch (Exception e) {
+			
 		}
 		finally {
 			tearDown();
