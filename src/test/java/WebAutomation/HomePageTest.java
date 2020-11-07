@@ -120,9 +120,10 @@ public class HomePageTest extends Utils {
 		driver.manage().window().maximize();
 		
 		try {
-			// Remove the footer because it obscures the elemts we need to click on
+			// Remove the footer because it obscures the elements we need to click on
 			((JavascriptExecutor) driver).executeScript("document.getElementById('footer').remove()");
 			
+			// extra time for window maximize
 			Thread.sleep(1000);
 	
 			// get all the toggle buttons
@@ -170,8 +171,9 @@ public class HomePageTest extends Utils {
 		//initialize driver and open URL
 		initialize(browser);
 		
-		// maximize window
+		// maximize window  -- because i do not sure what is the popup exact logic
 		driver.manage().window().maximize();
+		
 		//wait until popup is visible
 		try {	
 			WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(3));
