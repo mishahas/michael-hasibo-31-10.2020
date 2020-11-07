@@ -192,6 +192,12 @@ public class HomePageTest extends Utils {
 	}
 	
 	
+	@Test(dataProvider = "getData")
+	public void gitTest(String browser) throws IOException {
+	
+	}
+	
+	
 	@DataProvider
 	public Iterator<Object> getData() {
 		ArrayList<Object> browserList = new ArrayList<>();
