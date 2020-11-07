@@ -42,7 +42,7 @@ public class Utils {
 			
 		}
 		
-		// explicit wait
+		// explicit wait !
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		return driver;
 		
