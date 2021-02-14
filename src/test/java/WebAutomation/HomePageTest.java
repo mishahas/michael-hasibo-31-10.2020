@@ -24,6 +24,7 @@ import Resources.Utils;
 import io.netty.handler.timeout.TimeoutException;
 import junit.framework.Assert;
 
+// this is a new change
 public class HomePageTest extends Utils {
 
 	HomePage homePage;
